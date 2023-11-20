@@ -13,6 +13,10 @@ body {
     background-attachment: scroll;
     background-size:40% 10%;
     background-position:100% 17%;
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+    margin:0 auto;
 }
 
 header {
