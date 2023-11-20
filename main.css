@@ -1,0 +1,112 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color:whitesmoke;
+    background-image: url("image/rh5.png");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size:40% 10%;
+    background-position:100% 17%;
+}
+
+header {
+    background-color: #2b333f;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    display: inline;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 50px;
+}
+
+footer {
+    background-color: #2b333f;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+h2{
+    margin-bottom: 15px;
+}
+.margin{
+    margin-bottom: 20px;
+}
+.div1{
+    width:50%;
+    padding-top:8%;
+    background-color:bisque;
+}
+.div2{
+    width: 50%;
+    float:right;
+    background-color: darkcyan;
+}
+#bg{
+    background-color: darkcyan;
+}
+.red{
+    color:red;
+}
+.purple{
+    color:purple;
+}
+.align{
+    align-items:center;
+}
+.size{
+    font-size: 20px;
+}
+a{
+    color:chocolate;
+}
+
+
+#nav{
+    padding: 5px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+#IM{
+    width: 700px;
+    height: 500px;
+    float:left;
+}
+#IM1{
+    float: right;
+}
+main{
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
